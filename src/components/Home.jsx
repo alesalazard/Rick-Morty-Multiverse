@@ -4,6 +4,7 @@ import '../styles/Home.css';
 
 const Home = () => {
   const [characters, setCharacters] = useState(null)
+  const[info, setInfo] = useState({})
 
   useEffect(() => {
     allCharacters(setCharacters)

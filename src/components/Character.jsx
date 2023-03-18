@@ -19,6 +19,9 @@ const Character = () => {
             <ul>
               <li>Specie: {character.species}</li>
               <li>Gender: {character.gender}</li>
+              <li>Origin: {character.origin.name}</li>
+              <li>Location: {character.location.name}</li>
+              <li>Status: {character.status}</li>
             </ul>
           </div> 
         </div>
