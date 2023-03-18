@@ -1,0 +1,39 @@
+.header-container {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .logo {
+    height: 15em;
+    padding: 15px 150px;
+  }
+  
+  h1 {
+    margin: 0px;
+    color: chartreuse;
+    text-shadow: 2px 1px #ffebcd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  .logo, h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 800%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

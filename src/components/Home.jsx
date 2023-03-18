@@ -11,7 +11,6 @@ const Home = () => {
   
   return (
   <>
-  <h2>CHARACTERS</h2>
   <div className='home-container'>
     {characters != null ? (
       characters.map(character => (

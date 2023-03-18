@@ -1,23 +1,24 @@
 .home-container {
-    background-color: rgba(78, 58, 28, 0.831);
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
+  background-color: #4e3a1cd4;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  padding-top: 50px;
 }
 
 #home-image {
-    width: 270px;
-    margin: 40px 0;
-    padding: 7px;
+  margin: 20px 0 60px 0;
+  padding: 20px;
+  border: solid 5px chartreuse;
 }
 
 .link-name {
-    text-decoration: none;
-    font-size: 2em;
-    color: blanchedalmond;
+  text-decoration: none;
+  font-size: 2em;
+  color: blanchedalmond;
 }
 
 .link-name:hover {
-    color: chartreuse;
-    border-radius: 50px;
+  color: chartreuse;
+  border-radius: 50px;
 }

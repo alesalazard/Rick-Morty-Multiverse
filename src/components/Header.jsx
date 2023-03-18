@@ -1,6 +1,8 @@
+// import '../styles/Header.css';
+
 const Header = () => {
   return (
-    <div>
+    <div className='header-container'>
       <img className='logo'
         src='/public/logo.jpg'
         alt='logo' />
