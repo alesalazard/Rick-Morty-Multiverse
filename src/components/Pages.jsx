@@ -15,10 +15,10 @@ const Pages = ({onPrevious, onNext}) => {
     <nav>
       <ul className='pagination-center'>
         <li className='page-item'>
-          <button className='page-link' onClick={handlePrevious}>Previous</button>
+          <button className='page-link' onClick={handlePrevious}><i className="bi bi-caret-left arrow-icon"></i></button>
         </li>
         <li>
-          <button onClick={handleNext}>Next</button>
+          <button onClick={handleNext}><i className="bi bi-caret-right arrow-icon"></i></button>
         </li>
       </ul>
     </nav>

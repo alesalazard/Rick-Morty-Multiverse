@@ -1,5 +1,17 @@
 .pagination-center {
   display: flex;
   justify-content: center;
-  gap: 850px;
+  gap: 200px;
+}
+
+.arrow-icon {
+  background-color: blanchedalmond;
+  color: chartreuse;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: blanchedalmond;
 }
