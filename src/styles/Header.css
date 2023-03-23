@@ -23,7 +23,7 @@
     font-size: 35px;
   }
   
-  #img-header, h1 {
+  h1 {
     animation-duration: 3s;
     animation-name: slidein;
   }
