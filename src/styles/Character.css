@@ -1,14 +1,13 @@
 .character-container {
   display: grid;
   margin: 50px 300px;
-  padding-bottom: 20px;
+  padding: 20px;
   background-color: #4e3a1cd4;
-  border: solid 2px chartreuse;
+  border: solid 5px chartreuse;
   border-radius: 15px;
 }
 
 h3 {
-  /* text-align: left; */
   grid-column: 1/span 2;
   grid-row: 1;
   margin-left: 20px;
@@ -18,17 +17,15 @@ h3 {
 }
 
 img {
+  border-radius: 200px;
+  padding: 20px;
   grid-column: 1/span 1;
   grid-row: 2;
-  width: 300px;
-  margin-left: 20px;
-  border-radius: 15px;
-  padding: 20px;
-  border: solid 5px chartreuse;
+  border: solid 2px yellow;
 }
 
 .list-container {
-  grid-column: 2/span 2;
+  grid-column: 3/span 2;
   grid-row: 2;
 }
 

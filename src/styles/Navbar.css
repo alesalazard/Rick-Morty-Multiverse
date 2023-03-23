@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+.decor {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-menu {
+    color: blanchedalmond;
+}
+
+.nav-menu:hover {
+    color: yellow;
+}

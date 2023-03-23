@@ -2,17 +2,18 @@
     width: 100%;
     text-align: center;
     background-color: black;
+    border: solid 10px chartreuse;
+    border-radius: 25px;
   }
   
-  .logo {
-    height: 15em;
-    padding: 15px 550px;
-    margin-top: 20px;
+  #img-header {
+    height: 300px;
+    border: none;
   }
   
   h1 {
     margin: 0px;
-    color: chartreuse;
+    color: yellow;
     text-shadow: 2px 1px #ffebcd;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -22,7 +23,7 @@
     font-size: 35px;
   }
   
-  .logo, h1 {
+  #img-header, h1 {
     animation-duration: 3s;
     animation-name: slidein;
   }

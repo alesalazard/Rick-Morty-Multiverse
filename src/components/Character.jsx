@@ -14,7 +14,7 @@ const Character = () => {
       {character != null ? (
         <div className='character-container'> 
           <h3>{character.name}</h3>
-          <img src={character.image} alt='character image' />
+          <img src={character.image} alt='character image' className='image-character' />
           <div className='list-container'>
             <ul>
               <li>Specie: {character.species}</li>

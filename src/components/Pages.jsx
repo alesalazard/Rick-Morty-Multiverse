@@ -2,12 +2,10 @@ import '../styles/Pagination.css';
 
 const Pages = ({onPrevious, onNext}) => {
   const handlePrevious = () => {
-    // alert('click previous')
     onPrevious();
   };
 
   const handleNext = () => {
-    // alert('click next')
     onNext();
   };
  

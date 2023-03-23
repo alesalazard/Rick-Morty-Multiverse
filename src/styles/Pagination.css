@@ -1,7 +1,7 @@
 .pagination-center {
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 150px;
 }
 
 .arrow-icon {

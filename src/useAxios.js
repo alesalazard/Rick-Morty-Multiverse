@@ -1,3 +1,5 @@
+// Este modulo no esta siendo usado en la aplicacion
+
 import axios from "axios";
 
 const initialUrl = 'https://rickandmortyapi.com/api/character/'

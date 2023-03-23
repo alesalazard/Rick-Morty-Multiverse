@@ -5,12 +5,12 @@
   font-weight: 400;
 }
 
-/* body {
+body {
   margin: 0;
-  display: flex;
   width: 100%;
   place-items: center;
-} */
+  background-color: blanchedalmond;
+}
 
 h1 {
   font-size: 3.2em;

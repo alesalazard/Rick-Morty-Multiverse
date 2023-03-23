@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+
 // import { allCharacters } from '../useAxios';
-// import { allCharacters } from "../useFetch";
+// import { allCharacters } from '../useFetch';
 import Pages from "../components/Pages";
 import "../styles/Home.css";
 
@@ -44,10 +45,12 @@ const Home = () => {
         {characters != null
           ? characters.map((character) => (
               <div key={character.id}>
-                <a href={`/character/${character.id}`} className='link-name'>
-                  {character.name}
-                </a>
-                <img src={character.image} alt='characters' id='home-image' />
+                <div>
+                  <a href={`/character/${character.id}`} className='link-name'>
+                    {character.name}
+                  </a>
+                  <img src={character.image} alt='characters' id='home-image' />
+                </div>
               </div>
             ))
           : "No hay personajes"}
