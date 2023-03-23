@@ -15,12 +15,13 @@
     margin: 0px;
     color: yellow;
     text-shadow: 2px 1px #ffebcd;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
   }
   
   h2 {
-    font-size: 35px;
+    font-size: 40px;
+    color: yellow;
+    padding-bottom: 20px;
   }
   
   h1 {
